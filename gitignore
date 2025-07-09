@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+# Environment variables
+.env
+# Log files
+*.log
+# System-specific files
+.DS_Store
+Thumbs.db
+# Backup or temporary files
+*.bak
+*.tmp
+~$*
+# Compiled files and binaries
+*.class
+*.exe
+*.dll
+*.out
+# VS Code settings 
+.vscode/
+# Office temporary files
+~$*.docx
+# Coverage and test reports 
+coverage/
+*.lcov
+# Dist or build folders 
+dist/
+build/
+# Other unwanted folders or files
+*.swp
+*.swo
