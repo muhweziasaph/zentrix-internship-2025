@@ -1,5 +1,5 @@
 # Internship-week-2 at Zentrix African Technology Institute Nakawa
-This is my first week  internship GitHub repository, week 2 report attached .
+This is my second week  internship GitHub repository, week 2 report attached .
 ## Project:
 Continuing with Personal Homepage
 ## Objectives
