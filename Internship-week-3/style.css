@@ -1,0 +1,85 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+  transition: background-color 0.4s, color 0.4s;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header, footer {
+  background: #007acc;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+button {
+  padding: 0.5em 1em;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #666;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  animation: float 3s infinite ease-in-out;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+ul, ol {
+  padding-left: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+.dark-mode {
+  background-color: #111;
+  color: #f9f9f9;
+}
+.dark-mode input, .dark-mode textarea {
+  background-color: #333;
+  color: white;
+  border-color: #888;
+}
+
+/* Animation for profile picture */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}

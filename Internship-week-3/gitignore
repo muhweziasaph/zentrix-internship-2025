@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+# OS generated files
+.DS_Store
+Thumbs.db
+# VSCode settings 
+.vscode/
+# Logs
+*.log
+# Environment/secret files 
+.env
+# Compiled or cache files
+*.class
+*.pyc
+*.swp
+*.bak
+# Build directories 
+dist/
+build/
