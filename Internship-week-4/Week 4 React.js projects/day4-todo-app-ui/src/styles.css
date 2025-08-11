@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+.app-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.input-section input {
+  flex: 1;
+  padding: 10px;
+}
+.input-section button {
+  padding: 10px 20px;
+}
+.task-list li {
+  margin: 10px 0;
+}
