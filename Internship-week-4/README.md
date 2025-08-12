@@ -17,7 +17,7 @@ This repository contains the progression of my Week 4 internship React projects,
 - Counter with **Increment**, **Decrement**, and **Reset**.
 - Great practice for useState and button events.
 ### Day 4–6: To-Do App Progress
-- Day 4: To-Do App UI only
+- Day 4: To-Do App UI(user interface) only
 - Day 5: Added delete and toggle functionality(final app) plus styling
 - Day 6:Deployment
 ## Technologies Used
@@ -26,7 +26,7 @@ This repository contains the progression of my Week 4 internship React projects,
 - Node.js(for environment) 
 - CSS (for styling)
 - Git and Github
-## How to View/Run the Project
+## How to View/Run the Projects locally:
 ### Prerequisites:
 - Node.js and npm installed
 ### Steps:
@@ -34,7 +34,10 @@ This repository contains the progression of my Week 4 internship React projects,
 2. npm install(instal dependencies)
 3. npm start(start the development server)
 4.  The app will be available at  http://localhost:3000
+## How to View/Run the main deployed project to do list app :
+https://asaph-todo-list-app.netlify.app/
 ## Author
 INTERNEE MUHWEZI ASAPH
 UTAMU STUDENT 
 BACHELOR OF SCIENCE COMPUTER SCIENCE
+
