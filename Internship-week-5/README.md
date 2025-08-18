@@ -2,7 +2,7 @@
 This is my fifth week  internship GitHub repository 
 # its about Backend Development with Node.js, Express, and MongoDB
 ## Project
-CRUD API for Blog or Contacts Management Application
+CRUD API for bookstore Application
 ## Objectives
 - Learn backend development fundamentals with Node.js.
 - Build RESTful API endpoints using Express.js.
@@ -15,17 +15,10 @@ CRUD API for Blog or Contacts Management Application
 - Express.js
 - MongoDB (using Mongoose)
 - Postman (for API testing)
-## How to View the Project
+## How to View the Projects in your local browser
 in command line ,
 1. **Clone the repository**:git clone https://github.com/muhweziasaph/Internship-week-5.git
-2. **Navigate project directory**:cd week5-backend
-3. **install dependencies**:npm install
-4. **Set up your MongoDB connection string in a .env file**:MONGODB_URI=your_mongodb_connection_string
-5. **Start the server**:npm start
-6. **Use Postman or any API client to test the endpoints**:
-- GET /api/contacts — retrieve all contacts
-- POST /api/contacts — create a new contact
-- PUT /api/contacts/:id — update a contact by ID
-- DELETE /api/contacts/:id — delete a contact by ID
+2. **Navigate project directory**:e.g cd C:\Users\LENOVO\Desktop\day3-4-5-backend-app or C:\Users\LENOVO\Desktop\day1and2-backend-app
+3. **follow readme.md in the respective directory**
 ## Author 
 MUHWEZI ASAPH, BACHELOR OF SCIENCE COMPUTER SCIENCE STUDENT UTAMU
