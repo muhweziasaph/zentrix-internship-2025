@@ -21,25 +21,6 @@ This project is a **MERN stack To-Do app** with full authentication:
 - Installed SendGrid in backend
     - npm install @sendgrid/mail
 - changed the function of email sending in authRoutes.js to ensure all tokens and password reset links will be sent via SendGrid instead of Mailtrap/Gmail.
-    - const sgMail = require("@sendgrid/mail");
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
-const sendEmail = async (to, subject, text) => {
-  const msg = {
-    to,
-    from: process.env.EMAIL_FROM, 
-    subject,
-    text,
-  };
-
-  try {
-    await sgMail.send(msg);
-    console.log(`Email sent to ${to}`);
-  } catch (error) {
-    console.error("SendGrid Error:", error.response?.body || error.message);
-    throw new Error("Failed to send email");
-  }
-};
 ## Environment variables used in deployment, 
 - PORT=5000
 - MONGO_URI= MongoDB Atlas Connection String
@@ -63,5 +44,6 @@ const sendEmail = async (to, subject, text) => {
 - Environment Variables: added my production .env variables.
 ## link to the deployed app
 - https://internship-week-6.onrender.com
+
 
 
