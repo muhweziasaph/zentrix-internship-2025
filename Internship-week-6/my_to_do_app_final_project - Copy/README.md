@@ -16,11 +16,7 @@ This project is a **MERN stack To-Do app** with full authentication:
          - install react-router-dom axios
          - npm run build
          - remove node_modules and commit the rest
-    - add link in backend server.js to serve the frontend react build
-        - app.use(express.static(path.join(__dirname, "..", "frontend_todo_list_app", "build")));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "frontend_todo_list_app", "build", "index.html"));
-});
+    - added link in backend server.js to serve the frontend react build
 - made my JWT_SECRET strong.
 - Installed SendGrid in backend
     - npm install @sendgrid/mail
@@ -51,14 +47,21 @@ const sendEmail = async (to, subject, text) => {
 - SENDGRID_API_KEY=SendGrid api key
 - FROM_EMAIL=verified gmail by sendgrid
 ## Deployment procedure
-- At Render dashboard → New → Web Service.
-- Connected  GitHub repository withthe project to deploy thats is Internship-week-6.
-- Set these options:
-    - Name: mern-todo-app 
-    - Branch: main 
+- At Render,created new workspace, dashboard → New → Web Service.
+- Connected  GitHub repository withthe project to deploy thats is [Internship-week-6.](https://github.com/muhweziasaph/Internship-week-6.git) in public git repository,
+- created a project by setting the following:
+    - Name: mern-todo-app
+    - environment name:production
+- further settings
+    - language:node
+    - Branch: main
+    - region:Oregon(USA West)
     - Root Directory:my_to_do_app_final_project - Copy/backend
-- Build Command:npm install
-- start command:node server.js
+- Build Command:my_to_do_app_final_project - Copy/backend/ $ npm install
+- start command:my_to_do_app_final_project - Copy/backend/ $ node server.js
 - Environment: Node
 - Environment Variables: added my production .env variables.
-## link to the app
+## link to the deployed app
+- https://internship-week-6.onrender.com
+
+
